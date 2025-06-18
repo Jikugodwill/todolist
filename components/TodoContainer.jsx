@@ -89,7 +89,7 @@ function TodoContainer() {
                   id="done"
                   onChange={(e) => handleToggleDone(index, e.target.checked)}
                 />
-                <span>{todo}</span>
+                <label htmlFor="done">{todo}</label>
               </div>
               <button onClick={() => handleDelete(index)}>Delete</button>
             </li>
